@@ -1,0 +1,101 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Remove whitespace on top of certain browsers */
+* {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define variables in the :root */
+ 
+
+/* Use your variables on elements along these lines */
+/*
+:root {
+  --contrast: lime;
+  --backgr: #000;
+}
+
+--- You can use the variables like this ---
+
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+*/
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 8em;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  text-align: center;
+  margin: 18px;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  text-align: center;
+  margin: 10px;
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+} 
+
+h4  {
+  text-align: center;
+  margin: 14px;
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  text-align: center;
+  margin: 15px;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+} 
+
+aside {
+  text-align: center;
+  margin: 15px;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+/* Billeder i 100% */
+img{
+
+  
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
